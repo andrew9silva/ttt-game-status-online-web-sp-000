@@ -46,9 +46,7 @@ def over?(board)
   end
 end
 
+
 def winner(board)
-  
-  if draw?(board)
-    return nil
-  end
-end
+  variable = won?(board)
+  if won?(board)
