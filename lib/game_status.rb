@@ -53,4 +53,5 @@ def winner(board)
     board[variable[0]]
   else
     nil
+  end
 end
