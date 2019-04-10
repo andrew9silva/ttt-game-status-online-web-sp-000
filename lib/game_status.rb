@@ -48,9 +48,9 @@ end
 
 
 def winner(board)
-  variable = won?(board)
-  if variable
-    board[variable[0]]
+  win_combo = won?(board)
+  if win_combo
+    board[win_combo[0]]
   else
     nil
   end
