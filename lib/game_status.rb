@@ -49,7 +49,7 @@ end
 
 def winner(board)
   variable = won?(board)
-  if won?(board)
+  if variable
     board[variable[0]]
   else
     nil
