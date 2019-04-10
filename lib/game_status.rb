@@ -50,4 +50,3 @@ end
 def winner(board)
   variable = won?(board)
   binding.pry
-  if variable
